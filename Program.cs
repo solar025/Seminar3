@@ -5,8 +5,7 @@
 
 Console.WriteLine("Введите число: ");
 string number = Console.ReadLine();
-int count = number.Length;
-
+var count = number.Length;
 if (count == 5)
 {
     if (number[0] == number[4] && number[1] == number[3])
